@@ -6,8 +6,8 @@
 # This is the one I wil modify (temporary version). Unless I add it to the Master (Which is the final version) this will remain as temp.
 
 # THIS IS THE MOST UP TO DATE PIPELINE THAT I AM WORKING ON. 
-# I AM CURRENTLY TRYING BBDuk.
-# IF YOU WANT WE CAN CREATE ANOTHER FILE WITH RESULTS
+ # I am currently running pyrad step 2 and will soon run step 3 for all samples (using this pipeline)
+ # I am also running our old pipeline to compare the results. I will send you a summary of results soon.
 
 
 #ddRAD PIPELINE - Data management and analysis
@@ -451,7 +451,6 @@ for file in *.txt; do echo pyrad -p "params/"$file -s 3 "&&"  pyrad -p "params/"
 mv pyrad_s3.params
 # we have specified the command 10 times, beacase is some cases it doesnt read the line and skip the sample. So we want to avoid that
 
- # I am currently running step 2 and will soon run step 3 for all samples
- # I am also running our old pipeline to compare the results. I will send you a summary of results soon.
+
  
 
